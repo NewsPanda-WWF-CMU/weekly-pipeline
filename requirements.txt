@@ -1,0 +1,15 @@
+numpy
+pandas
+sklearn
+matplotlib
+imblearn
+torch==1.8.0
+transformers==4.10.2
+sqlalchemy==1.4
+psycopg2-binary==2.9.1
+openpyxl
+xlsxwriter
+pyyaml==5.4.1
+psycopg2==2.7.7
+textblob
+newsapi-python
