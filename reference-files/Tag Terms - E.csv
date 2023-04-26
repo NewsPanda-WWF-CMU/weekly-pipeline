@@ -1,0 +1,472 @@
+Atmosphere,carbon
+Atmosphere,CH4
+Atmosphere,CO2
+Atmosphere,methane 
+Atmosphere,nitrogen
+Conservation Keyword,adaptation
+Conservation Keyword,adaptive management
+Conservation Keyword,alternative livelihoods
+Conservation Keyword,animal identification
+Conservation Keyword,animal traceability
+Conservation Keyword,animal welfare
+Conservation Keyword,benefit sharing
+Conservation Keyword,biodiversity
+Conservation Keyword,biological resources
+Conservation Keyword,biosecurity
+Conservation Keyword,biotechnology
+Conservation Keyword,buffer zone
+Conservation Keyword,carrying capacity
+Conservation Keyword,connecting
+Conservation Keyword,conservation
+Conservation Keyword,conservation area
+Conservation Keyword,conservationist
+Conservation Keyword,conserve
+Conservation Keyword,containment zone
+Conservation Keyword,corridor
+Conservation Keyword,critical area 
+Conservation Keyword,critical habitat 
+Conservation Keyword,ecosystem
+Conservation Keyword,ecosystem based management
+Conservation Keyword,ecosystem diversity
+Conservation Keyword,ecosystem management
+Conservation Keyword,ecosystem resilience
+Conservation Keyword,ecosystem services
+Conservation Keyword,ecosystem-based management
+Conservation Keyword,eia
+Conservation Keyword,environmental impact assessment
+Conservation Keyword,game warden
+Conservation Keyword,green corridor
+Conservation Keyword,habitat
+Conservation Keyword,habitat corridor
+Conservation Keyword,habitat management area 
+Conservation Keyword,icca
+Conservation Keyword,imma
+Conservation Keyword,important marine mammal area
+Conservation Keyword,kba
+Conservation Keyword,key biodiversity area
+Conservation Keyword,key biodiversity areas
+Conservation Keyword,land donation
+Conservation Keyword,landscape management
+Conservation Keyword,marine protected area
+Conservation Keyword,monitoring
+Conservation Keyword,mpa
+Conservation Keyword,national park
+Conservation Keyword,natural heritage
+Conservation Keyword,natural monument
+Conservation Keyword,pa
+Conservation Keyword,population dynamics
+Conservation Keyword,predator management
+Conservation Keyword,preservation
+Conservation Keyword,prey depletion
+Conservation Keyword,protected
+Conservation Keyword,protected landscape
+Conservation Keyword,protected seascape
+Conservation Keyword,protection zone
+Conservation Keyword,ranger
+Conservation Keyword,remote sensing 
+Conservation Keyword,sacred site
+Conservation Keyword,species management area
+Conservation Keyword,strict nature reserve 
+Conservation Keyword,sustainable
+Conservation Keyword,sustainable wildlife management
+Conservation Keyword,transboundary protected area
+Conservation Keyword,transfrontier
+Conservation Keyword,wilderness area
+Conservation Keyword,wildlife conservation
+Conservation Keyword,wildlife corridor
+Conservation Keyword,wildlife management
+Conservation Keyword,wildlife manager
+Freshwater Habitat,basin 
+Freshwater Habitat,lake 
+Freshwater Habitat,marsh
+Freshwater Habitat,pond
+Freshwater Habitat,river
+Freshwater Habitat,spring
+Freshwater Habitat,stream
+Freshwater Habitat,wetland
+Marine Habitat,barrier reef
+Marine Habitat,coral 
+Marine Habitat,coral reef
+Marine Habitat,mangrove
+Marine Habitat,marine
+Marine Habitat,ocean
+Marine Habitat,reef
+Marine Habitat,salt marsh
+Marine Habitat,sea grass
+Marine Habitat,sea water
+Restoration,reforestation
+Restoration,regeneration
+Restoration,restoration
+Restoration,rewilding
+Restoration,tree planting
+Social,access and benefit sharing
+Social,community
+Social,community based conservation
+Social,community based natural resource management
+Social,community based wildlife management
+Social,community conservation
+Social,community-based projects
+Social,cultural heritage impact assessment 
+Social,cultural impact assessment
+Social,customary law
+Social,eco-tourism
+Social,empowerment
+Social,human rights
+Social,indigenous
+Social,indigenous people
+Social,indigenous species 
+Social,subsistence hunting
+Social,sustainable hunting
+Social,sustainable livelihood
+Social,sustainable tourism
+Social,sustainable use
+Social,traditional knowledge
+Social,traditional medicine
+Species,aardvark
+Species,aardwolf
+Species,african buffalo
+Species,african elephant
+Species,african leopard
+Species,albatross
+Species,alligator
+Species,alpaca
+Species,american buffalo (bison)
+Species,american robin
+Species,amphibian
+Species,anaconda
+Species,angelfish
+Species,anglerfish
+Species,ant
+Species,anteater
+Species,antelope
+Species,antlion
+Species,ape
+Species,aphid
+Species,arabian leopard
+Species,arctic fox
+Species,arctic wolf
+Species,armadillo
+Species,baboon
+Species,badger
+Species,bald eagle
+Species,bandicoot
+Species,bare soil
+Species,bat
+Species,bear
+Species,bear
+Species,beaver
+Species,bee
+Species,beetle
+Species,big game
+Species,biological diversity
+Species,bird
+Species,bison
+Species,bonobo
+Species,bovid
+Species,breeding 
+Species,breeding grounds
+Species,buffalo
+Species,buffalo
+Species,bug
+Species,butterfly
+Species,buzzard
+Species,camel
+Species,canid
+Species,canidae
+Species,capybara
+Species,caribou
+Species,carnivore
+Species,cat
+Species,caterpillar
+Species,cephalopod
+Species,chameleon
+Species,cheetah
+Species,chimpanzee
+Species,cicada
+Species,cod
+Species,condor
+Species,crab
+Species,crane
+Species,critically endangered
+Species,crocodile
+Species,crow
+Species,cuckoo
+Species,data deficient
+Species,deer
+Species,density
+Species,dingo
+Species,dispersal
+Species,diversity
+Species,dolphin
+Species,dove
+Species,dragon
+Species,dragonfly
+Species,duck
+Species,dung beetle
+Species,eagle
+Species,earthworm
+Species,earwig
+Species,echidna
+Species,ecological niche
+Species,eel
+Species,egret
+Species,elephant
+Species,elephant seal
+Species,elk
+Species,emu
+Species,endangered
+Species,endemic species
+Species,falcon
+Species,felidae
+Species,ferret
+Species,finch
+Species,fish
+Species,flagship species
+Species,flamingo
+Species,flock
+Species,fly
+Species,flyingfish
+Species,flyway
+Species,food chain 
+Species,forage
+Species,fowl
+Species,fox
+Species,frog
+Species,fruit bat
+Species,galliform
+Species,gamefowl
+Species,gazelle
+Species,gecko
+Species,genetic
+Species,genetic diversity
+Species,genetic diversity
+Species,genetic material
+Species,genetic resources
+Species,gibbon
+Species,giraffe
+Species,goat
+Species,goldfish
+Species,goose
+Species,gopher
+Species,gorilla
+Species,grasshopper
+Species,grouse
+Species,gull
+Species,haddock
+Species,halibut
+Species,harrier
+Species,hawk
+Species,hedgehog
+Species,herbaceous
+Species,hippopotamus
+Species,hummingbird
+Species,hyena
+Species,ice
+Species,iguana
+Species,impala
+Species,incubation period
+Species,indicator species
+Species,insectivore
+Species,invertebrate
+Species,iucn red list of threatened species
+Species,jackal
+Species,jaguar
+Species,jay
+Species,jellyfish
+Species,kangaroo
+Species,keystone species
+Species,kingfisher
+Species,kite
+Species,kiwi
+Species,koala
+Species,komodo dragon
+Species,krill
+Species,least concern
+Species,lemur
+Species,leopard
+Species,lichens
+Species,lion
+Species,lizard
+Species,llama
+Species,lobster
+Species,locust
+Species,lynx
+Species,macaw
+Species,mackerel
+Species,magpie
+Species,mammal
+Species,manatee
+Species,manta ray
+Species,marlin
+Species,marmoset
+Species,marmot
+Species,marsupial
+Species,marten
+Species,mastodon
+Species,mating season
+Species,meadowlark
+Species,meerkat
+Species,migration
+Species,migratory species
+Species,mink
+Species,mite
+Species,mollusk
+Species,mongoose
+Species,monitor lizard
+Species,monkey
+Species,moose
+Species,mosquito
+Species,mosses
+Species,moth
+Species,mountain goat
+Species,mule
+Species,muskox
+Species,narwhal
+Species,native species
+Species,newt
+Species,ocelot
+Species,octopus
+Species,omnivore
+Species,orangutan
+Species,orca
+Species,ostrich
+Species,otter
+Species,owl
+Species,ox
+Species,panda
+Species,panther
+Species,panther
+Species,parakeet
+Species,parrot
+Species,parrotfish
+Species,partridge
+Species,peacock
+Species,peafowl
+Species,pelican
+Species,penguin
+Species,perch
+Species,pheasant
+Species,pigeon
+Species,pike
+Species,platypus
+Species,polar bear
+Species,population
+Species,porcupine
+Species,porpoise
+Species,possum
+Species,prairie dog
+Species,prawn
+Species,predator
+Species,prey
+Species,primate
+Species,ptarmigan
+Species,puffin
+Species,puma
+Species,python
+Species,quelea
+Species,quokka
+Species,rabbit
+Species,raccoon
+Species,range
+Species,rare species
+Species,rattlesnake
+Species,ray
+Species,reindeer
+Species,reintroduction
+Species,reptile
+Species,rhinoceros
+Species,sailfish
+Species,salamander
+Species,salmon
+Species,sawfish
+Species,scallop
+Species,scorpion
+Species,sea lion
+Species,seahorse
+Species,sex ratio
+Species,shark
+Species,shark
+Species,sheep
+Species,shrew
+Species,shrimp
+Species,skink
+Species,sloth
+Species,sloth
+Species,snail
+Species,snake
+Species,snow
+Species,snow leopard
+Species,sparrow
+Species,species
+Species,species of special concern
+Species,species richness
+Species,spider
+Species,spoonbill
+Species,squid
+Species,squirrel
+Species,starfish
+Species,stingray
+Species,stoat
+Species,stork
+Species,sturgeon
+Species,subpopulation
+Species,swallow
+Species,swan
+Species,swift
+Species,swordfish
+Species,swordtail
+Species,tahr
+Species,takin
+Species,tapir
+Species,tarantula
+Species,tarsier
+Species,tasmanian devil
+Species,termite
+Species,tern
+Species,threatened species
+Species,thrush
+Species,tiger
+Species,tiger shark
+Species,toad
+Species,tortoise
+Species,toucan
+Species,translocation
+Species,tree frog
+Species,trout
+Species,tuna
+Species,turkey
+Species,turtle
+Species,ungulates
+Species,vulnerable
+Species,vulture
+Species,wallaby
+Species,walrus
+Species,water bodies
+Species,water buffalo
+Species,waterfowl
+Species,whale
+Species,wildlife
+Species,wildlife populations
+Species,yak
+Species,yellow perch
+Species,zebra
+Species,zebra finch
+Terrestrial Habitat,cloud forest
+Terrestrial Habitat,contiguous forest
+Terrestrial Habitat,desert
+Terrestrial Habitat,forest
+Terrestrial Habitat,forest cover
+Terrestrial Habitat,grassland
+Terrestrial Habitat,grassland
+Terrestrial Habitat,landscape
+Terrestrial Habitat,meadows 
+Terrestrial Habitat,mountains
+Terrestrial Habitat,peat
+Terrestrial Habitat,peatlands
+Terrestrial Habitat,rain forest
+Terrestrial Habitat,savanna
+Terrestrial Habitat,scrub
+Terrestrial Habitat,shrubland
+Terrestrial Habitat,taiga
+Terrestrial Habitat,tundra
+Terrestrial Habitat,woodland
