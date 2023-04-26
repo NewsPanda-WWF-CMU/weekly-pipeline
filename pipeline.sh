@@ -1,14 +1,18 @@
+#! /bin/bash
+
+day_lag=${1:-0}
+week_lag=$((7+$day_lag))
+
 echo "======================================================================"
 echo "Scraping dataset starting 7 days ago"
 echo "======================================================================"
-lastweek=$(date -d '-8 days' '+%Y-%m-%d')
-python scrape_weekly.py --scrapedate=${lastweek}
+lastweek=$(date -d '-'${week_lag}' days' '+%Y-%m-%d')
+# python scrape_weekly.py --scrapedate=${lastweek}
 
 echo "======================================================================"
 echo "Staring creating csv from database"
 echo "======================================================================"
-currdate=$(date '+%Y-%m-%d')
-currdate=$(date -d '-1 days' '+%Y-%m-%d')
+currdate=$(date -d '-'${day_lag}' days' '+%Y-%m-%d')
 python create_csv_from_db.py --currdate=${currdate}
 
 echo "======================================================================"
@@ -31,7 +35,7 @@ echo "======================================================================"
 echo "Starting inference for infra model"
 echo "======================================================================"
 python inference_infra.py \
---model_path model100.pt \
+--model_path model/model_infra.pt \
 --load_input_file news_labelled_${currdate}_shortlist.csv
 
 # echo "======================================================================"
@@ -63,7 +67,7 @@ mv news_labelled_${currdate}_masterlist.csv ${foldername}
 mv news_labelled_${currdate}_masterlist.xlsx ${foldername}
 mv news_labelled_${currdate}_shortlist.csv ${foldername}
 mv news_labelled_${currdate}_shortlist.xlsx ${foldername}
-mv news_labelled_${currdate}_shortlist.json ${foldername}
+# mv news_labelled_${currdate}_shortlist.json ${foldername}
 mv event_clusters_${currdate}.csv ${foldername}
 mv event_clusters_${currdate}.xlsx ${foldername}
 mv keywords_${currdate}.csv ${foldername}
