@@ -7,7 +7,7 @@ echo "======================================================================"
 echo "Scraping dataset starting 7 days ago"
 echo "======================================================================"
 lastweek=$(date -d '-'${week_lag}' days' '+%Y-%m-%d')
-# python src/scrape_weekly.py --scrapedate=${lastweek}
+python src/scrape_weekly.py --scrapedate=${lastweek}
 
 echo "======================================================================"
 echo "Staring creating csv from database"
