@@ -77,4 +77,4 @@ mv parivesh_${currdate}.csv ${foldername}
 echo "======================================================================"
 echo "Tweeting articles"
 echo "======================================================================"
-# python tweet_articles.py --currdate=${currdate}
+python tweet_articles.py --currdate=${currdate}
