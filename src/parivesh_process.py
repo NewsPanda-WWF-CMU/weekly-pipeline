@@ -40,7 +40,7 @@ def load_districts_dict():
 def run(config):
     date = config.currdate
     curr_articles = pd.read_csv(f"./articles_all_{date}.csv")
-    all_parivesh = pd.read_csv(f"./parivesh_files/parivesh_{date}.csv")
+    all_parivesh = pd.read_csv(f"./parivesh-files/parivesh_{date}.csv")
     all_parivesh["url"] = [f"https://forestsclearance.nic.in/viewreport.aspx?pid={pid}" for pid in all_parivesh["Proposal_no"]]
     cols_to_keep = ['url', 'Proposal_Name', 'user_agency_name', 'area_applied', 'Proposal_Status', 'New_Status']
     all_parivesh = all_parivesh[cols_to_keep]

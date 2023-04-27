@@ -1,5 +1,5 @@
 __pycache__
-parivesh_files/*.csv
+parivesh-files/*.csv
 database.yaml
 model
 ttt.json

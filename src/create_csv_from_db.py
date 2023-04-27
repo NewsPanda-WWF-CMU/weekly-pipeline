@@ -50,7 +50,7 @@ if __name__=="__main__":
         dd,mm,yyyy = tt[0].split('-')
         return f"{yyyy}-{mm}-{dd}T{tt[1]}Z"
     
-    df_parivesh = pd.read_csv(f"parivesh_files/parivesh_{config.currdate}.csv")
+    df_parivesh = pd.read_csv(f"parivesh-files/parivesh_{config.currdate}.csv")
     currdate_with_time = f"{config.currdate} 23:59:00"
     currdate_obj = datetime.strptime(currdate_with_time, '%Y-%m-%d %H:%M:%S')
     last_week = currdate_obj - dt.timedelta(days=7)
