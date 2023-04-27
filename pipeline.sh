@@ -7,18 +7,18 @@ echo "======================================================================"
 echo "Scraping dataset starting 7 days ago"
 echo "======================================================================"
 lastweek=$(date -d '-'${week_lag}' days' '+%Y-%m-%d')
-# python scrape_weekly.py --scrapedate=${lastweek}
+# python src/scrape_weekly.py --scrapedate=${lastweek}
 
 echo "======================================================================"
 echo "Staring creating csv from database"
 echo "======================================================================"
 currdate=$(date -d '-'${day_lag}' days' '+%Y-%m-%d')
-python create_csv_from_db.py --currdate=${currdate}
+python src/create_csv_from_db.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Starting inference"
 echo "======================================================================"
-python inference.py \
+python src/inference.py \
 --threshold 0.85 \
 --model_path model/model_v0.pt \
 --load_input_file articles_all_${currdate}.csv \
@@ -27,14 +27,14 @@ python inference.py \
 echo "======================================================================"
 echo "Starting inference for events"
 echo "======================================================================"
-python inference_events.py \
+python src/inference_events.py \
 --data_path news_labelled_${currdate}_shortlist.csv \
 --currdate=${currdate}
 
 echo "======================================================================"
 echo "Starting inference for infra model"
 echo "======================================================================"
-python inference_infra.py \
+python src/inference_infra.py \
 --model_path model/model_infra.pt \
 --load_input_file news_labelled_${currdate}_shortlist.csv
 
@@ -48,14 +48,14 @@ python inference_infra.py \
 echo "======================================================================"
 echo "Creating keywords file"
 echo "======================================================================"
-python keyword_csv_gen.py \
+python src/keyword_csv_gen.py \
 --filename news_labelled_${currdate}_shortlist.csv --num_articles 5 \
 --currdate=${currdate}
 
 echo "======================================================================"
 echo "Process Parivesh articles"
 echo "======================================================================"
-python process_parivesh_articles.py --currdate=${currdate}
+python src/process_parivesh_articles.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Cleaning up files"
@@ -77,4 +77,4 @@ mv parivesh_${currdate}.csv ${foldername}
 echo "======================================================================"
 echo "Tweeting articles"
 echo "======================================================================"
-python tweet_articles.py --currdate=${currdate}
+# python tweet_articles.py --currdate=${currdate}

@@ -8,6 +8,7 @@ import datetime as dt
 from datetime import datetime
 import argparse
 
+
 def get_df_weekly(engine):
     sql_cmd = """
         select * 
