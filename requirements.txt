@@ -13,3 +13,4 @@ pyyaml==5.4.1
 psycopg2==2.7.7
 textblob
 newsapi-python
+beautifulsoup4

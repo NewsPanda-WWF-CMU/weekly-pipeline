@@ -52,10 +52,10 @@ python keyword_csv_gen.py \
 --filename news_labelled_${currdate}_shortlist.csv --num_articles 5 \
 --currdate=${currdate}
 
-# echo "======================================================================"
-# echo "Process Parivesh articles"
-# echo "======================================================================"
-# python process_parivesh_articles.py --currdate=${currdate}
+echo "======================================================================"
+echo "Process Parivesh articles"
+echo "======================================================================"
+python process_parivesh_articles.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Cleaning up files"
@@ -72,6 +72,7 @@ mv event_clusters_${currdate}.csv ${foldername}
 mv event_clusters_${currdate}.xlsx ${foldername}
 mv keywords_${currdate}.csv ${foldername}
 mv keywords_${currdate}.xlsx ${foldername}
+mv parivesh_${currdate}.csv ${foldername}
 
 echo "======================================================================"
 echo "Tweeting articles"
