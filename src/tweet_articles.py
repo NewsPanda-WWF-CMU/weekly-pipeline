@@ -42,7 +42,7 @@ if __name__=="__main__":
     if config.currdate is None:
         config.currdate = str(datetime.now()).split(' ')[0].strip()
 
-    df = pd.read_excel(f'news_{config.currdate}/news_labelled_{config.currdate}_shortlist.xlsx')
+    df = pd.read_excel(f'weekly-news/news_{config.currdate}/news_labelled_{config.currdate}_shortlist.xlsx')
     try: 
         df_cluster = pd.read_excel(f'news_{config.currdate}/event_clusters_{config.currdate}.xlsx')
         df = df[(df['conservation_prediction'] == 1) & (df['source_name'] != "Parivesh")].sort_values('confidence', ascending=False)

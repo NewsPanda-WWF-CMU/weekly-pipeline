@@ -55,7 +55,7 @@ python src/keyword_csv_gen.py \
 echo "======================================================================"
 echo "Process Parivesh articles"
 echo "======================================================================"
-python src/process_parivesh_articles.py --currdate=${currdate}
+python src/parivesh_process.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Cleaning up files"
@@ -77,4 +77,4 @@ mv parivesh_${currdate}.csv ${foldername}
 echo "======================================================================"
 echo "Tweeting articles"
 echo "======================================================================"
-python tweet_articles.py --currdate=${currdate}
+python src/tweet_articles.py --currdate=${currdate}

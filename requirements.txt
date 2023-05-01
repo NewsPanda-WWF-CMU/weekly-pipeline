@@ -14,3 +14,5 @@ psycopg2==2.7.7
 textblob
 newsapi-python
 beautifulsoup4
+geopy
+requests_oauthlib
