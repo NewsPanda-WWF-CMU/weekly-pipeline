@@ -4,3 +4,5 @@ database.yaml
 model
 ttt.json
 weekly-news
+geckodriver*
+chromedriver*

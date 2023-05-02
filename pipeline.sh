@@ -2,17 +2,22 @@
 
 day_lag=${1:-0}
 week_lag=$((7+$day_lag))
+lastweek=$(date -d '-'${week_lag}' days' '+%Y-%m-%d')
+currdate=$(date -d '-'${day_lag}' days' '+%Y-%m-%d')
+
+echo "======================================================================"
+echo "Downloading files from Parivesh website"
+echo "======================================================================"
+python src/parivesh_downloader.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Scraping dataset starting 7 days ago"
 echo "======================================================================"
-lastweek=$(date -d '-'${week_lag}' days' '+%Y-%m-%d')
 python src/scrape_weekly.py --scrapedate=${lastweek}
 
 echo "======================================================================"
 echo "Staring creating csv from database"
 echo "======================================================================"
-currdate=$(date -d '-'${day_lag}' days' '+%Y-%m-%d')
 python src/create_csv_from_db.py --currdate=${currdate}
 
 echo "======================================================================"
