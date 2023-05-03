@@ -83,3 +83,8 @@ echo "======================================================================"
 echo "Tweeting articles"
 echo "======================================================================"
 python src/tweet_articles.py --currdate=${currdate}
+
+echo "======================================================================"
+echo "Uploading to Google Drive"
+echo "======================================================================"
+python src/google_drive_uploader.py --currdate=${currdate}

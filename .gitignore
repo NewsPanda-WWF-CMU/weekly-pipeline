@@ -6,3 +6,6 @@ ttt.json
 weekly-news
 geckodriver*
 chromedriver*
+client_secrets.json
+credentials.json
+settings.yaml
