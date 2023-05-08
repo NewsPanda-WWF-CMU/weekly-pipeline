@@ -61,7 +61,8 @@ def run(config):
 	file_list.append(f"{weekly_news_folder}/news_labelled_{config.currdate}_shortlist.xlsx")
 	if f"event_clusters_{config.currdate}.xlsx" in os.listdir(weekly_news_folder):
 		file_list.append(f"{weekly_news_folder}/event_clusters_{config.currdate}.xlsx")
-	file_list.append(f"{weekly_news_folder}/keywords_{config.currdate}.xlsx")		
+	if f"keywords_{config.currdate}.xlsx" in os.listdir(weekly_news_folder):
+		file_list.append(f"{weekly_news_folder}/keywords_{config.currdate}.xlsx")		
 	file_list.append(f"{weekly_news_folder}/parivesh_{config.currdate}.csv")
 
 	gdrive.upload_files(file_list, currdate_folder)
