@@ -18,3 +18,26 @@ Once you have downloaded your `chromedriver` or `geckodriver`, indicate the path
 
 ## Setup Google Drive Authentication
 In order for `src/google_drive_uploader.py` to work properly, you will need to set up authentication for Google Drive. You will need `client_secrets.json`, `credentials.json`, and `settings.yaml` in your project directory. More detailed instructions can be found [here](https://github.com/sedrickkeh/cheat-sheet/tree/master/pydrive).
+
+## Parviesh Split Up Script (Due to Parviesh Server Issues)
+
+This script, `src/parivesh_combine_csv.py`, automates the process of downloading, processing, and combining CSV files from the Parivesh website. This is due to the fact that `src/parivesh_downloader.py` does not work (takes a long long time without any downloads).
+
+### Prerequisites
+
+Before running the script, ensure that the following prerequisites are met:
+
+- Python 3.6 or higher is installed.
+- Required Python packages are installed. These include pandas, selenium, and others that might be used in the script. (these should be in requirements.txt)
+- Appropriate WebDriver (ChromeDriver or GeckoDriver) for Selenium is downloaded and placed in a known directory.
+
+### Script Parameters
+
+- `--currdate``: Specifies the current date. Defaults to today's date if not specified.
+- `--browser``: Type of browser to use (chrome or firefox). Default is chrome.
+- `--driver_path``: Path to the WebDriver executable (ChromeDriver or GeckoDriver).
+- `--download_path``: Directory where files will be downloaded. Default is the current directory (Might have to change some of the code to change this from the default so would recommend running with the default values).
+
+### Notes
+- The script will automatically handle checkpoints, so in case of failure, it can resume from the last processed region.
+- After successful execution, the script will clean up all intermediate files, leaving only the final combined CSV file.
