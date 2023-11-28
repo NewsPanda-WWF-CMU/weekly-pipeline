@@ -8,7 +8,7 @@ currdate=$(date -d '-'${day_lag}' days' '+%Y-%m-%d')
 echo "======================================================================"
 echo "Downloading files from Parivesh website"
 echo "======================================================================"
-python src/parivesh_downloader.py --currdate=${currdate}
+python src/parivesh_combine_csv.py --currdate=${currdate}
 
 echo "======================================================================"
 echo "Scraping dataset starting 7 days ago"
