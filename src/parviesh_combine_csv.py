@@ -150,7 +150,7 @@ def run(config):
         # Combine all CSV files into one
     all_csv_files = [f for f in os.listdir(config.download_path) if f.endswith('.csv')]
     combined_df = pd.concat([pd.read_csv(os.path.join(config.download_path, f)) for f in all_csv_files], ignore_index=True)
-    combined_df.to_csv(os.path.join(config.download_path, 'combined_parivesh.csv'), index=False)
+    combined_df.to_csv(os.path.join(config.download_path, f"parivesh-files/parivesh_{currdate}.csv"), index=False)
     logging.info("All regions and states processed. Combined CSV created.")
     cleanup(config.download_path)
     logging.info("Cleanup completed.")
