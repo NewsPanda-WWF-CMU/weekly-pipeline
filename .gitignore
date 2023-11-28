@@ -9,3 +9,9 @@ chromedriver*
 client_secrets.json
 credentials.json
 settings.yaml
+*.csv
+LICENSE.chromedriver
+last_checkpoint.txt
+Online_Proposalby_Status_Forest.html
+.DS_Store
+*.xls
