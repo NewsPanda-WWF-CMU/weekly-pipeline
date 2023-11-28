@@ -27,7 +27,7 @@ def write_checkpoint(region, checkpoint_file='last_checkpoint.txt'):
 
 def cleanup(download_path, keep_combined_csv=True):
     for fname in os.listdir(download_path):
-        if fname.endswith('.xls') or fname.endswith('.csv') and not (keep_combined_csv and fname == 'combined_parivesh.csv'):
+        if fname.endswith('.xls') or fname.endswith('last_checkpoint.txt') or fname.endswith('.csv') and not (keep_combined_csv and fname == 'combined_parivesh.csv'):
             os.remove(os.path.join(download_path, fname))
 
 def wait_for_download(download_path):
