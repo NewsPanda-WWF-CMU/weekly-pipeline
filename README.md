@@ -39,5 +39,5 @@ Before running the script, ensure that the following prerequisites are met:
 - `--download_path``: Directory where files will be downloaded. Default is the current directory (Might have to change some of the code to change this from the default so would recommend running with the default values).
 
 ### Notes
-- The script will automatically handle checkpoints, so in case of failure, it can resume from the last processed region.
+- The script will automatically handle checkpoints, so in case of failure, it can resume from the last processed region. (IF YOU ARE RUNNING FROM SCRATCH AND WANT TO RE-RUN MAKE SURE THAT THE `last_checkpoint.txt` file is deleted)
 - After successful execution, the script will clean up all intermediate files, leaving only the final combined CSV file.
